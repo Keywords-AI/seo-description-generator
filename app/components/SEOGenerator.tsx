@@ -6,7 +6,7 @@ import ResultDisplay from "./ResultDisplay";
 import FileUpload from "./FileUpload";
 
 const models = [
-  { value: 'gpt4o-mini', label: 'GPT-4o mini (Default, Free)' },
+  { value: 'gpt-4o-mini', label: 'GPT-4o mini (Default, Free)' },
   { value: 'gpt-4o', label: 'GPT-4o' },
   { value: 'claude-3-5-sonnet-20240620', label: 'Claude 3.5 Sonnet' },
 ];
@@ -16,7 +16,7 @@ export default function SEOGenerator() {
   const [seoDescription, setSeoDescription] = useState("");
   const [isGenerating, setIsGenerating] = useState(false);
   const [resetTrigger, setResetTrigger] = useState(0);
-  const [selectedModel, setSelectedModel] = useState("gpt4o-mini");
+  const [selectedModel, setSelectedModel] = useState("gpt-4o-mini");
   const [openaiKey, setOpenaiKey] = useState("");
   const [anthropicKey, setAnthropicKey] = useState("");
   const [isGenerateDisabled, setIsGenerateDisabled] = useState(true);

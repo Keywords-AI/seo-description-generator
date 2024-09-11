@@ -47,7 +47,7 @@ export default function Home() {
           </a>
           <p className="text-lg mb-6">Contribute to the project on Github.</p>
           <a
-            href="https://discord.com/invite/KEanfAafQQ"
+            href="https://github.com/Keywords-AI/seo-description-generator"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-neutral-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-neutral-700 inline-flex items-center"

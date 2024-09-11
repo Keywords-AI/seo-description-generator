@@ -10,7 +10,7 @@ export async function POST(request: Request) {
 
   const client = new OpenAI({
     baseURL: "https://api.keywordsai.co/api",
-    apiKey: process.env.KEYWORDS_AI_API_KEY,
+    apiKey: process.env.KEYWORDS_AI_API_KEY || process.env.NEXT_PUBLIC_KEYWORDS_AI_API_KEY,
   });
 
   try {

@@ -74,7 +74,7 @@ export default function SEOGenerator() {
     setContent('');
     setSeoDescription('');
     setResetTrigger(prev => prev + 1);
-    setSelectedModel('gpt4o-mini');
+    setSelectedModel('gpt-4o-mini');
     setOpenaiKey('');
     setAnthropicKey('');
   };

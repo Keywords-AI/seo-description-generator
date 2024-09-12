@@ -5,13 +5,12 @@ export default function Home() {
   return (
     <main className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">
-        {/* <Logo /> */}
         Keywords AI SEO Description Generator
       </h1>
-      <section className="py-16">
+      <section className="py-12">
         <SEOGenerator />
       </section>
-      <section className="py-16 bg-indigo-200 rounded-[8px]">
+      <section className="py-8 bg-indigo-200 rounded-[8px]">
         <div className="container mx-auto px-4 text-center">
           <a
             href="https://www.keywordsai.co"
@@ -35,7 +34,7 @@ export default function Home() {
           </a>
         </div>
       </section>
-      <section className="py-16 bg-stone-200 rounded-[8px]">
+      <section className="py-8 bg-stone-200 rounded-[8px]">
         <div className="container mx-auto px-4 text-center">
           <a
             href="https://www.keywordsai.co"

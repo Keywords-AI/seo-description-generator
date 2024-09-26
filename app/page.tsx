@@ -1,10 +1,12 @@
 import SEOGenerator from "@/app/components/SEOGenerator";
 import { Discord } from "./components/icons";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">
+      <h1 className="text-3xl font-bold mb-4">
+      
         Keywords AI SEO Description Generator
       </h1>
       <section className="py-12">

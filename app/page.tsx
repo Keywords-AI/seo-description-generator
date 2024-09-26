@@ -1,6 +1,5 @@
 import SEOGenerator from "@/app/components/SEOGenerator";
 import { Discord } from "./components/icons";
-import Image from "next/image";
 
 export default function Home() {
   return (

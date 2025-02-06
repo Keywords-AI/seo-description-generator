@@ -6,7 +6,7 @@ import ResultDisplay from "./ResultDisplay";
 import FileUpload from "./FileUpload";
 
 const models = [
-  { value: 'gpt-4o-mini-2024-07-18-free', label: 'GPT-4o mini (Default, Free)' },
+  { value: 'gpt-4o-mini', label: 'GPT-4o mini (Default, Free)' },
   { value: 'gpt-4o', label: 'GPT-4o' },
   { value: 'claude-3-5-sonnet-20240620', label: 'Claude 3.5 Sonnet' },
 ];

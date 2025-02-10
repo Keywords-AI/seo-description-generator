@@ -16,7 +16,7 @@ export default function SEOGenerator() {
   const [seoDescription, setSeoDescription] = useState("");
   const [isGenerating, setIsGenerating] = useState(false);
   const [resetTrigger, setResetTrigger] = useState(0);
-  const [selectedModel, setSelectedModel] = useState("gpt-4o-mini-2024-07-18-free");
+  const [selectedModel, setSelectedModel] = useState("gpt-4o-mini");
   const [openaiKey, setOpenaiKey] = useState("");
   const [anthropicKey, setAnthropicKey] = useState("");
   const [isGenerateDisabled, setIsGenerateDisabled] = useState(true);
@@ -74,7 +74,7 @@ export default function SEOGenerator() {
     setContent('');
     setSeoDescription('');
     setResetTrigger(prev => prev + 1);
-    setSelectedModel('gpt-4o-mini-2024-07-18-free');
+    setSelectedModel('gpt-4o-mini');
     setOpenaiKey('');
     setAnthropicKey('');
   };
